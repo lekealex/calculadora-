@@ -1,0 +1,51 @@
+@import "./base.css";
+
+.calc{
+  border: 3px solid #30e004a4;
+  padding: 30px;
+  max-width: 830px;
+  display: block;
+}
+body {
+  margin: ;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+  
+  display: flex;
+  flex-direction: column;
+}
+.valores-forms {
+  display: grid;
+  margin-top: 15px;
+}
+input, select{
+  height: 30px;
+  padding-left: 10px;
+}
+strong {
+  text-decoration: underline solid;
+}
+span{
+  margin-left: 55px;
+}
+label{
+  font-size: 1.1em;
+}
+.resultado {
+  background-color: #30e004a4;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(1, 0, 0);
+}
+.resultado span {
+  font-size: 2em;
+}
